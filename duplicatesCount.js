@@ -41,7 +41,7 @@ const duplicateCount = (text) => {
         // NOTE TO SELF: there's no way I would have come up with that regular expression. Those things are opaque.
 }
 
-duplicateCount("abcde");
+duplicateCount("abcdeeeeeeee");
 duplicateCount("aabbcde");
 duplicateCount("aabBcde");
 duplicateCount("indivisibility");
